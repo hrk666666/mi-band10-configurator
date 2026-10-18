@@ -1,0 +1,8 @@
+trimesh==5.1.1
+shapely==2.2.0
+pillow==13.0.0
+numpy==2.4.6
+scipy==1.17.1
+mapbox-earcut
+manifold3d
+pygltflib==1.16.5

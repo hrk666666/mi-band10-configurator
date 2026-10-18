@@ -1,0 +1,89 @@
+# 自动检测与迭代日志
+
+## [轮次 1] 2026-10-18T08:45:06.556Z
+- 运行 Playwright 自动截图循环
+- 组合数: 5 配色 × 4 表带 × 7 机位 + 8 随机角度
+- 发现问题:
+  - 无（基础亮度检查通过）
+  - 页面报错: Failed to load resource: the server responded with a status of 404 (Not Found)
+## [轮次 2] 2026-10-18T09:01:36.104Z
+- 运行 Playwright 自动截图循环
+- 组合数: 5 配色 × 4 表带 × 7 机位 + 8 随机角度
+- 截图总数: 148
+- 发现问题:
+  - midnight-black_tpu_back.png: too dark (94.6% dark)
+  - midnight-black_tpu_left.png: too dark (94.1% dark)
+  - midnight-black_tpu_right.png: too dark (94.1% dark)
+  - midnight-black_tpu_bandMacro.png: too dark (94.6% dark)
+  - midnight-black_metal_back.png: too dark (94.6% dark)
+  - midnight-black_metal_left.png: too dark (94.1% dark)
+  - midnight-black_metal_right.png: too dark (94.1% dark)
+  - midnight-black_metal_bandMacro.png: too dark (94.6% dark)
+  - midnight-black_leather_back.png: too dark (94.6% dark)
+  - midnight-black_leather_left.png: too dark (94.1% dark)
+  - midnight-black_leather_right.png: too dark (94.1% dark)
+  - midnight-black_leather_bandMacro.png: too dark (94.6% dark)
+  - midnight-black_woven_back.png: too dark (94.6% dark)
+  - midnight-black_woven_left.png: too dark (94.1% dark)
+  - midnight-black_woven_right.png: too dark (94.1% dark)
+  - midnight-black_woven_bandMacro.png: too dark (94.6% dark)
+  - glacier-silver_tpu_back.png: too dark (94.6% dark)
+  - glacier-silver_tpu_left.png: too dark (90.4% dark)
+  - glacier-silver_tpu_right.png: too dark (90.4% dark)
+  - glacier-silver_tpu_bandMacro.png: too dark (94.6% dark)
+  - glacier-silver_metal_back.png: too dark (94.6% dark)
+  - glacier-silver_metal_left.png: too dark (90.4% dark)
+  - glacier-silver_metal_right.png: too dark (90.4% dark)
+  - glacier-silver_metal_bandMacro.png: too dark (94.6% dark)
+  - glacier-silver_leather_back.png: too dark (94.6% dark)
+  - glacier-silver_leather_left.png: too dark (90.4% dark)
+  - glacier-silver_leather_right.png: too dark (90.5% dark)
+  - glacier-silver_leather_bandMacro.png: too dark (94.6% dark)
+  - glacier-silver_woven_back.png: too dark (94.6% dark)
+  - glacier-silver_woven_left.png: too dark (90.4% dark)
+  - glacier-silver_woven_right.png: too dark (90.5% dark)
+  - glacier-silver_woven_bandMacro.png: too dark (94.6% dark)
+  - mystic-rose_tpu_back.png: too dark (94.6% dark)
+  - mystic-rose_tpu_left.png: too dark (90.2% dark)
+  - mystic-rose_tpu_right.png: too dark (90.4% dark)
+  - mystic-rose_tpu_bandMacro.png: too dark (94.6% dark)
+  - mystic-rose_metal_back.png: too dark (94.6% dark)
+  - mystic-rose_metal_left.png: too dark (90.2% dark)
+  - mystic-rose_metal_right.png: too dark (90.4% dark)
+  - mystic-rose_metal_bandMacro.png: too dark (94.6% dark)
+  - mystic-rose_leather_back.png: too dark (94.6% dark)
+  - mystic-rose_leather_left.png: too dark (90.2% dark)
+  - mystic-rose_leather_right.png: too dark (90.4% dark)
+  - mystic-rose_leather_bandMacro.png: too dark (94.6% dark)
+  - mystic-rose_woven_back.png: too dark (94.6% dark)
+  - mystic-rose_woven_left.png: too dark (90.2% dark)
+  - mystic-rose_woven_right.png: too dark (90.4% dark)
+  - mystic-rose_woven_bandMacro.png: too dark (94.6% dark)
+  - glimmer-gold_tpu_back.png: too dark (94.6% dark)
+  - glimmer-gold_tpu_left.png: too dark (90.4% dark)
+  - glimmer-gold_tpu_right.png: too dark (90.6% dark)
+  - glimmer-gold_tpu_bandMacro.png: too dark (94.6% dark)
+  - glimmer-gold_metal_back.png: too dark (94.6% dark)
+  - glimmer-gold_metal_left.png: too dark (90.4% dark)
+  - glimmer-gold_metal_right.png: too dark (90.6% dark)
+  - glimmer-gold_metal_bandMacro.png: too dark (94.6% dark)
+  - glimmer-gold_leather_back.png: too dark (94.6% dark)
+  - glimmer-gold_leather_left.png: too dark (90.4% dark)
+  - glimmer-gold_leather_right.png: too dark (90.6% dark)
+  - glimmer-gold_leather_bandMacro.png: too dark (94.6% dark)
+  - glimmer-gold_woven_back.png: too dark (94.6% dark)
+  - glimmer-gold_woven_left.png: too dark (90.4% dark)
+  - glimmer-gold_woven_right.png: too dark (90.6% dark)
+  - glimmer-gold_woven_bandMacro.png: too dark (94.6% dark)
+  - pearl-white_tpu_bandMacro.png: too dark (94.6% dark)
+  - pearl-white_metal_bandMacro.png: too dark (94.6% dark)
+  - pearl-white_leather_bandMacro.png: too dark (94.6% dark)
+  - pearl-white_woven_bandMacro.png: too dark (94.6% dark)
+  - 无页面错误
+## [轮次 3] 2026-10-18T09:17:11.204Z
+- 运行 Playwright 自动截图循环
+- 组合数: 5 配色 × 4 表带 × 7 机位 + 8 随机角度
+- 截图总数: 148
+- 发现问题:
+  - 无（亮度/加载检查通过）
+  - 无页面错误

@@ -1,0 +1,28 @@
+{
+  "name": "mi-band10-configurator",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:e2e": "node tests/snapshot.test.mjs",
+    "validate:model": "gltf-validator public/models/mi_band10.glb"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.114.0",
+    "@react-three/fiber": "^8.17.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.169.0",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.0",
+    "gltf-validator": "2.0.0-dev.3.10",
+    "jimp": "^1.6.1",
+    "playwright": "^1.50.0",
+    "vite": "^5.4.0"
+  }
+}
